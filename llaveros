@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Llaveros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec; /* Color de fondo rosa claro */
+            color: #880e4f; /* Color de texto rosa oscuro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ec407a; /* Color de encabezado rosa */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product {
+            background-color: white;
+            border: 2px solid #f48fb1;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .btn {
+            background-color: #e91e63; /* Color del botón rosa */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #c2185b;
+        }
+
+        footer {
+            background-color: #ec407a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Venta de Llaveros</h1>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <h2>Llavero perro repollo</h2>
+            <img src="14045d1a-4144-4b55-9e1d-43b5ee72bd4.jpg" alt="Llavero perro repollo">
+            <p>Precio: $200</p>
+            <a href="https://mpago.la/2eUQ55R" class="btn">Comprar ahora</a>
+        </div>
+
+        <div class="product">
+            <h2>Llavero Estrella</h2>
+            <img src="llavero-estrella.jpg" alt="Llavero Estrella">
+            <p>Precio: $250</p>
+            <a href="#" class="btn">Comprar ahora</a>
+        </div>
+
+        <div class="product">
+            <h2>Llavero Unicornio</h2>
+            <img src="llavero-unicornio.jpg" alt="Llavero Unicornio">
+            <p>Precio: $300</p>
+            <a href="#" class="btn">Comprar ahora</a>
+        </div>
+    </div>
+
+    <footer>
+      
+</body>
+</html>
